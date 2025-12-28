@@ -1,28 +1,6 @@
 基于STM32F103C8的按键控制系统，通过两个独立按键控制OLED显示屏显示不同的文字信息
 
 
-模式
-第1行	        
-第2行	           
-第3行
-欢迎界面	 
-Welcome!	      
-STM32F103C8	     
-Press Key1/2
-按键1按下	 
-Key1 Pressed!
-Mode 1 Active	   
-LED Display
-按键2按下	 
-Key2 Pressed!	
-Mode 2 Active	   
-Text Changed
-两键同时	 
-Both Keys!	    
-Special Mode	   
-Config Menu
-
-
 显示模块 I2C接口的OLED   I2C地址0x78  驱动芯片 SSD1306
 
 
