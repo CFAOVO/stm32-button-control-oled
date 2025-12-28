@@ -17,22 +17,34 @@
 文件结构
 project/
 ├── main.c                     # 主程序文件
+
 ├── main.h                     # 主头文件（宏定义、函数声明）
+
 ├── gpio.c                     # GPIO配置和按键读取
+
 ├── i2c.c / i2c.h              # I2C总线驱动
+
 ├── oled.c / oled.h            # OLED显示驱动
+
 ├── oled_font.c / oled_font.h  # 字库文件
+
 └── system_stm32f10x.c         # 系统时钟配置
+
 
 
 调试手段
 LED指示 可用板载LED指示程序运行状态
+
 串口调试 预留USART接口用于调试信息输出
+
 断点调试 Keil调试器支持硬件断点
 
 
 测试流程
 GPIO测试 → 按键输入是否正常
+
 I2C测试 → OLED通信是否正常
+
 显示测试 → 文字显示是否正确
+
 功能测试 → 按键控制逻辑是否正确
